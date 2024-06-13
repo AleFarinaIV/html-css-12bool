@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.p-xy {
+    padding: 6px 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.lime {
+    background-color: lime;
+}
