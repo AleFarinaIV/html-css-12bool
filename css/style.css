@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
 .container {
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
 }
 
@@ -13,6 +18,15 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.box , .box-nested {
+    background-color: rgb(33, 132, 212);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
 }
 
 .p-xy {
@@ -23,6 +37,6 @@
     margin-top: 15px;
 }
 
-.lime {
+.box-nested {
     background-color: lime;
 }

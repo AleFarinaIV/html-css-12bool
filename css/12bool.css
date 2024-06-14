@@ -1,118 +1,71 @@
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
 .col-1 {
     max-width: calc((100% / 12) * 1);
-    flex-basis: calc((100% / 12) * 1) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
+    flex-basis: calc((100% / 12) * 1);
 }
 
 .col-2 {
     max-width: calc((100% / 12) * 2);
     flex-basis: calc((100% / 12) * 2) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-3 {
     max-width: calc((100% / 12) * 3);
     flex-basis: calc((100% / 12) * 3) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-4 {
     max-width: calc((100% / 12) * 4);
     flex-basis: calc((100% / 12) * 4) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-5 {
     max-width: calc((100% / 12) * 5);
     flex-basis: calc((100% / 12) * 5) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-6 {
     max-width: calc((100% / 12) * 6);
     flex-basis: calc((100% / 12) * 6) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-7 {
     max-width: calc((100% / 12) * 7);
     flex-basis: calc((100% / 12) * 7) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-8 {
     max-width: calc((100% / 12) * 8);
     flex-basis: calc((100% / 12) * 8) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-9 {
     max-width: calc((100% / 12) * 9);
     flex-basis: calc((100% / 12) * 9) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-10 {
     max-width: calc((100% / 12) * 10);
     flex-basis: calc((100% / 12) * 10) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-11 {
     max-width: calc((100% / 12) * 11);
     flex-basis: calc((100% / 12) * 11) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
 }
 
 .col-12 {
     max-width: calc((100% / 12) * 12);
     flex-basis: calc((100% / 12) * 12) ;
-    background-color: rgb(33, 132, 212);
-    border: 1px solid white;
-    height: 50px;
-}
-
-.nested-col-2 {
-    flex-basis: calc((100% / 12) * 2) ;
-    background-color: lime;
-    border: 1px solid rgb(33, 132, 212);
-    height: 35px;
-}
-
-.nested-col-6 {
-    flex-basis: calc((100% / 12) * 6) ;
-    background-color: lime;
-    border: 1px solid rgb(33, 132, 212);
-    height: 35px;
-}
-
-.nested-col-8 {
-    flex-basis: calc((100% / 12) * 8) ;
-    background-color: lime;
-    border: 1px solid rgb(33, 132, 212);
-    height: 35px;
 }
 
 .col-offset-1 {
